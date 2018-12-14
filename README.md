@@ -1,6 +1,6 @@
 # Car Detection Using YOLO Model
 
-The goal is to detect 'cars' in images using the YOLO (You Only Look Once) model.Compared to other region proposal classification networks 
+The goal is to detect 'cars' in images using the YOLO model(You Only Look Once model).Compared to other region proposal classification networks 
 (fast RCNN) which perform detection on various region proposals and thus end up performing prediction multiple times for various 
 regions in a image, Yolo architecture is more like FCNN (Fully Convolutional Neural Network) and passes the image (nxn) once 
 through the FCNN and output is (mxm) prediction. Thus the architecture is splitting the input image in mxm grid and for each 
